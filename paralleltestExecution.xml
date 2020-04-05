@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel ="tests" thread-count="10">
+<listeners>
+
+<listener class-name="test.Listeners"/>
+</listeners>
+	 <test name="Personal Loan" parallel="classes" thread-count="3">  <!-- parallel execution of classes -->
+		<packages>
+			<package name="test" />
+		</packages>
+	</test>
+
+</suite> <!-- Suite -->

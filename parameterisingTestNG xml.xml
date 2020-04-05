@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<listeners>
+
+<listener class-name="test.Listeners"/>
+</listeners>
+	<parameter name="URL" value="loandepartment.com" /> <!-- Suite Level Parameterization-->
+	<test thread-count="5" name="Personal Loan">
+	
+	<parameter name="URL" value="personalloan.com"/> <!-- Test Level Parameterization-->
+	<parameter name="APIKey/username" value="123456"/> 
+		<classes>
+			<class name="test.day3"/>
+			<class name="test.day2"/>
+			</classes>
+	</test>
+</suite> <!-- Suite -->
