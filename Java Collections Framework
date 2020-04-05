@@ -1,0 +1,57 @@
+ The Java Collection Framework is a collection of interfaces and classes, 
+ which helps in storing and processing the data efficiently.
+  This framework has several useful classes which have tons of useful functions which makes
+  programmer task super easy.
+  
+  1.LIST
+    A List is a Ordered Collection (sequence). 
+    List may contain Duplicate Elements
+    
+    Below are classes implement List Interface 
+    a. ArrayList
+    b. LinkedList
+    c. Vector
+  
+  2.SET  
+    A Set is a collection that cannot contain duplicate elements 
+    However it makes no gurantees concering the order of iteration
+   
+    Below are classes implement List Interface 
+    a. HashSet
+    b. LinkedHashSet
+    c. TreeSet
+  
+  3.MAP
+    A Map is an object that maps Keys to Values. 
+    Map can not contain Duplicates keys
+    
+    Below are classes implement List Interface 
+    a. HashMap
+    b. LinkedHashMap
+    c. TreeMap
+    
+    ******************************* difference between HashMap and HashTable*****************************************
+    
+    1. Synchronization or Thread Safe : This is the most important difference between two.
+    
+    HashMap : is non synchronized and not thread safe.
+    HashTable : is synchronized and thread safe. 
+    
+    Which means, if multiple program simultaenously access HasMap, then HashMap its keep updating that means 5 diffrent programs or therads can access HashMap in sametime
+    
+    In case of HashTable if one programm acessing it, other program has to wait till first programm release the HashTable resources.
+    
+    2. Null Keys and Null Values : 
+    
+    HashMap : allows One Null Key and (any) 'n' number of Null Values in the HashMap object.
+    HashTable : does not allow Null Keys and Null Values in the HashTable obejct
+    
+    3. Iterating the Values:
+    
+    HashMap : HashMap obeject values are iterated by using iterator
+    HashTable : HashTable is the only class other than Vector which uses enumerator to iterate the values of HashTable object.
+    
+    
+    
+    
+ 
