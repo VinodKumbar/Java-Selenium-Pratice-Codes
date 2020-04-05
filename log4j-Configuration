@@ -1,0 +1,18 @@
+2 main tag in configuration .xml file
+Appenders
+Loggers
+
+Where to log ? -- Appender Tag_ Console
+
+In Appenders tag, if you give Console tag, out put will print in Console
+
+prefix to message can be modified om 
+
+if you give file tag, out put will print in File (require file)
+
+
+What to log ? -- Loggers
+<Root Level = "error"> - it willprint only error file/message into out put 
+<Root Level = "trace"> - it will print entire out put
+
+How to log ? -- Appender Tag_ Console_ Pattern Layout

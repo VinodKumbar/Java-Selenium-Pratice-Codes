@@ -1,0 +1,17 @@
+How can you driver data into your test ?
+Using an Apache POI API
+
+
+What are the Maven dependencies available to set up Data Driven testing ?
+using Maven project to get all the POI API Jars
+poi-ooxml
+poi
+
+Strategy to Access to Excel Data - get a Hold of Excel first
+
+Create object for XSSFWorkbook class
+Get Access to sheet
+Get Access to all rows of Sheet
+Access to Specific Row from all rows
+Get Access to all Cells of Row
+Access the Data from Excel into Arrays
